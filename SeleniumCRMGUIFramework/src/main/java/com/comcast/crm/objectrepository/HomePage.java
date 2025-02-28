@@ -13,7 +13,13 @@ public class HomePage {
 		this.driver=driver;
 	}
 	
+	@FindBy(xpath = "//a[text()='Documents']")
+	private WebElement documentLinkElement;
 	
+	public WebElement getDocumentLinkElement() {
+		return documentLinkElement;
+	}
+
 	@FindBy(linkText = "Organizations")
 	private WebElement orgLink;
 	
