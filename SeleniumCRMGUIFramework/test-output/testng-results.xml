@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-25T17:27:56 IST" name="Suite" finished-at="2025-02-25T17:28:16 IST" duration-ms="20443">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateOrgTest.createOrgTest()[pri:0, instance:com.comcast.crm.Orgtest1.CreateOrgTest@6fdbe764]" name="createOrgTest" class="com.comcast.crm.Orgtest1.CreateOrgTest"/>
+        <method signature="CreateOrgTest.createOrgwithPhone()[pri:0, instance:com.comcast.crm.Orgtest1.CreateOrgTest@6fdbe764]" name="createOrgwithPhone" class="com.comcast.crm.Orgtest1.CreateOrgTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateOrgTest.createOrgTest()[pri:0, instance:com.comcast.crm.Orgtest1.CreateOrgTest@6fdbe764]" name="createOrgTest" class="com.comcast.crm.Orgtest1.CreateOrgTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2025-02-25T17:27:56 IST" name="Test" finished-at="2025-02-25T17:28:16 IST" duration-ms="20443">
+      <class name="com.comcast.crm.Orgtest1.CreateOrgTest">
+        <test-method is-config="true" signature="configBaseClass()[pri:0, instance:com.comcast.crm.Orgtest1.CreateOrgTest@6fdbe764]" started-at="2025-02-25T17:27:55 IST" name="configBaseClass" finished-at="2025-02-25T17:27:56 IST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBaseClass -->
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:com.comcast.crm.Orgtest1.CreateOrgTest@6fdbe764]" started-at="2025-02-25T17:27:56 IST" name="configBeforeClass" finished-at="2025-02-25T17:28:01 IST" duration-ms="4944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.comcast.crm.Orgtest1.CreateOrgTest@6fdbe764]" started-at="2025-02-25T17:28:01 IST" name="configBeforeMethod" finished-at="2025-02-25T17:28:03 IST" duration-ms="2721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="createOrgTest()[pri:0, instance:com.comcast.crm.Orgtest1.CreateOrgTest@6fdbe764]" started-at="2025-02-25T17:28:03 IST" name="createOrgTest" finished-at="2025-02-25T17:28:07 IST" duration-ms="3731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.comcast.crm.Orgtest1.CreateOrgTest@6fdbe764]" started-at="2025-02-25T17:28:07 IST" name="configAfterMethod" finished-at="2025-02-25T17:28:09 IST" duration-ms="2062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:com.comcast.crm.Orgtest1.CreateOrgTest@6fdbe764]" started-at="2025-02-25T17:28:09 IST" name="configBeforeMethod" finished-at="2025-02-25T17:28:11 IST" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMethod -->
+        <test-method signature="createOrgwithPhone()[pri:0, instance:com.comcast.crm.Orgtest1.CreateOrgTest@6fdbe764]" started-at="2025-02-25T17:28:11 IST" name="createOrgwithPhone" finished-at="2025-02-25T17:28:15 IST" duration-ms="4149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgwithPhone -->
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:com.comcast.crm.Orgtest1.CreateOrgTest@6fdbe764]" started-at="2025-02-25T17:28:15 IST" name="configAfterMethod" finished-at="2025-02-25T17:28:16 IST" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.comcast.crm.Orgtest1.CreateOrgTest@6fdbe764]" started-at="2025-02-25T17:28:16 IST" name="configAfterClass" finished-at="2025-02-25T17:28:16 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+        <test-method is-config="true" signature="configAfterSuite()[pri:0, instance:com.comcast.crm.Orgtest1.CreateOrgTest@6fdbe764]" started-at="2025-02-25T17:28:21 IST" name="configAfterSuite" finished-at="2025-02-25T17:28:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterSuite -->
+      </class> <!-- com.comcast.crm.Orgtest1.CreateOrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
